@@ -1,0 +1,8 @@
+# Build a host binary
+
+cc_binary(
+    name="baz",
+	sources=["main.c"],
+	deps=["/example:util"]
+)
+	 
